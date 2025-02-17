@@ -40,32 +40,4 @@ for lis in lis:
     else:
         print("Movie not found")
         break
-        
-
-
-# url2='https://www.imdb.com/title/tt0111161/'
-# r2=requests.get(url,headers=headers)
-
-# html2=r2.text
-# soup2=BeautifulSoup(html2,'html.parser')
-# div2=soup2.find('div',{'class':'ipc-metadata-list-item__content-container'})
-# dirurl=(div2.a['href'])
-# finaldirurl=f'https://www.imdb.com{dirurl}'
-# print(finaldirurl)
-
-
-
-# import requests
-# from bs4 import BeautifulSoup
-
-# url3='https://www.imdb.com/name/nm0001104/'
-
-# r3=requests.get(url3,headers=headers)
-# html3=r3.text
-# soup3=BeautifulSoup(html3,'html.parser')
-
-# div3=soup3.find('div',{'class':'ipc-sub-grid ipc-sub-grid--page-span-2 ipc-sub-grid--wraps-at-above-l ipc-shoveler__grid'})
-# movies4=div3.findAll('a',{"class":"ipc-primary-image-list-card__title"})
-# for movies4 in movies4:
-#     print(movies4.string)
 
