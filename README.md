@@ -60,5 +60,5 @@ This project is open-source under the MIT License.
 Feel free to contribute by submitting a pull request or suggesting improvements!
 
 ## Author
-[Your Name](https://github.com/yourusername)
+[Your Name](https://github.com/SouravSohal)
 
